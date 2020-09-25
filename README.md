@@ -1,2 +1,2 @@
 # baia
-Facilidade em alugueis na temporada
+Ferramenta desenvolvida com o objetivo de facilitar locação na temporada. 
