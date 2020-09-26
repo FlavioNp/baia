@@ -1,5 +1,7 @@
 const express = require('express');
 const mongoose = require('mongoose');
+const cors = require('cors');
+
 
 const routes = require('./routes');
 
@@ -10,6 +12,7 @@ mongoose.connect('mongodb+srv://projetoBaia:projetobaia@projectbaia.zqgvx.mongod
     useUnifiedTopology: true,
 });
 
+app.use(cors());
 app.use(express.json());
 app.use(routes);
 
